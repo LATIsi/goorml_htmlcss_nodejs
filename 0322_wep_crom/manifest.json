@@ -1,0 +1,11 @@
+{
+	"manifest_version":2,
+	"name":"Typed URL History",
+	"version":"1.2",
+	"description":"히스토리를 읽고, 많이 방문하는 페이지를 목록으로 보여줍니다. ",
+	"permission":["history"],
+	"browser_action":{
+		"default_popup":"typedUrls.html",
+		"default_icon":"logo.png"
+	}
+}
