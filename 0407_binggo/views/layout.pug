@@ -1,0 +1,15 @@
+// chat.pug
+
+doctype html
+html
+  head
+    title=title
+    style
+      include style.css
+    style
+    script(src='/socket.io/socket.io.js')
+    script(src='//code.jquery.com/jquery.min.js')
+    script(src='/javascripts/main.js')
+  body
+    center
+      block content

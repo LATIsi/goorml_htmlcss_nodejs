@@ -1,0 +1,68 @@
+body{
+	padding:0;
+	margin:0;
+}
+
+.menu{
+	width: 100%; 
+	height: 9%;
+	display:relative;
+	background-color: #777799;
+ 	color: #FFFFFF;
+}
+
+.chat{
+	width: 80%; 
+	height: 95%;
+	display:relative;
+	background-color:gray;
+}
+
+.content{
+	width: 100%; 
+	height: 80%;
+	display:relative;
+	overflow:hidden;
+}
+
+.btn.btn-info.header{
+	display:relative;
+	width:100%;
+	height: 45px;
+	font-size: 20px;
+	background-color: teal;
+	color: white;
+	border:none;
+}
+
+#chatLog{
+	width: 80%; 
+	height: 80%;
+	margin:0;
+	border:none;
+	border-left: 2px solid lightgray;
+	border-right: 2px solid lightgray;
+	padding:10px;
+	resize: none;
+	display:inline-block;
+}
+#name{ 
+	width: 10%; 
+}
+
+#message{ 
+	width: 35%; 
+}
+
+.btn.btn-primary{
+	display:relative;
+}
+
+
+.count_chat{
+	width: 18%; 
+	height: 100%;
+	display:inline-block;
+	background-color:lightcoral;
+	padding:10px;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "0407_binggo",
+  "version": "1.0.0",
+  "description": "socket.io를 이용한 같은 링크내에서의 온라인 빙고게임 구현",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
